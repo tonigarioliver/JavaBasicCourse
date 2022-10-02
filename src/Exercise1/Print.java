@@ -4,19 +4,19 @@ public class Print {
     public static void main(String[] args) {
     }
 
-    protected void printvalue(int i) {
+    protected static void printvalue(int i) {
         System.out.println(i);
     }
-    protected void printvalue(String i) {
+    protected static void printvalue(String i) {
         System.out.println(i);
     }
-    protected void printvalue(long i) {
+    protected static void printvalue(long i) {
         System.out.println(i);
     }
-    protected void printvalue(boolean i) {
+    protected static void printvalue(boolean i) {
         System.out.println(i);
     }
-    protected void printvalue(float i) {
+    protected static void printvalue(float i) {
         System.out.println(i);
     }
 

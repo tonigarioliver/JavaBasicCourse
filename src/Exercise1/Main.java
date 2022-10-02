@@ -2,17 +2,16 @@ package Exercise1;
 
 public class Main {
     public static void main(String[] args) {
-        Print p = new Print();
         int i = 0;
-        p.printvalue(i);
+        Print.printvalue(i);
         String j =Integer.toString(i);
-        p.printvalue(j);
+        Print.printvalue(j);
         float k = Float.parseFloat(j);
-        p.printvalue(k);
+        Print.printvalue(k);
         boolean l = true;
-        p.printvalue(l);
+        Print.printvalue(l);
         long m = Long.parseLong(j);
-        p.printvalue(m);
+        Print.printvalue(m);
 
     }
 }
