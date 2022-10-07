@@ -6,11 +6,18 @@ public class Vehicle {
     double cc;
     int year;
     boolean sport;
+    Integer currentSpeed = 0;
+
 
     public Vehicle(){}
     public Vehicle(String manufacturer,String model){
         this.manufacturer = manufacturer;
         this.model = model;
+    }
+
+    public void acceleration(Integer acceleration){
+        if (acceleration>0)
+            currentSpeed = acceleration;
     }
 
     public Vehicle(String manufacturer,String model,double cc,int year,boolean sport){
