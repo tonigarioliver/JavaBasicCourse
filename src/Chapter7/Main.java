@@ -1,10 +1,10 @@
 package Chapter7;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Arrays;
+import Exercise1.Print;
+
+import java.io.*;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -49,6 +49,51 @@ public class Main {
             }
         } catch (FileNotFoundException e) {
             System.out.println("Oye, que el programa da error" + e.getLocalizedMessage());
+        }
+
+        try {
+            InputStream file = new FileInputStream("C:\\Users\\tonie\\IdeaProjects\\JavaBasicCourse\\src\\Chapter7\\test");
+            BufferedInputStream filebuffer = new BufferedInputStream(file);
+            try{
+                int dato = filebuffer.read();
+                while(dato != -1){
+                    System.out.print((char)dato);
+                    dato = filebuffer.read();
+                }
+            }catch(IOException e) {
+                System.out.println("No se puede leer fichero" + e.getLocalizedMessage());
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("Oye, que el programa da error" + e.getLocalizedMessage());
+        }
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Introduce un entero");
+            int a = scanner.nextInt();
+
+            try {
+                InputStream file = new FileInputStream("C:\\Users\\tonie\\IdeaProjects\\JavaBasicCourse\\src\\Chapter7\\test");
+                BufferedInputStream filebuffer = new BufferedInputStream(file);
+                try {
+                    int dato = filebuffer.read();
+                    while (dato != -1) {
+                        System.out.print((char) dato);
+                        dato = filebuffer.read();
+                    }
+                } catch (IOException e) {
+                    System.out.println("No se puede leer fichero" + e.getLocalizedMessage());
+                }
+            } catch (FileNotFoundException e) {
+                System.out.println("Oye, que el programa da error" + e.getLocalizedMessage());
+            }
+        }catch(Exception e){
+
+        }
+
+        try {
+            PrintStream  filetxt = new PrintStream("file.txt");
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
         }
     }
 }
