@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a062f90-b40e-49ee-b8e5-75e9f58c7b3d" name="Changes" comment="Exercise7 finished">
-      <change afterPath="$PROJECT_DIR$/src/Chapter8/MainForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8/MainForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3a062f90-b40e-49ee-b8e5-75e9f58c7b3d" name="Changes" comment="Chapeter 8 finished">
+      <change afterPath="$PROJECT_DIR$/src/Chapter9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666426823379</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Chapeter 8 finished">
+      <created>1666443036363</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666443036363</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +323,8 @@
     <MESSAGE value="Chapter 6 finished" />
     <MESSAGE value="Chapter 7 finished" />
     <MESSAGE value="Exercise7 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise7 finished" />
+    <MESSAGE value="Chapeter 8 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapeter 8 finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
